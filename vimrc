@@ -18,6 +18,7 @@ set showcmd
 set fileformat=unix
 set incsearch
 set shortmess+=I
+set mouse=a
 set tags=./tags;
 
 if has("win32") || has("win64")
