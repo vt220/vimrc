@@ -32,6 +32,9 @@ set nocscopeverbose
 set csto=1
 set cspc=3
 
+" Prevent scrolling when switching buffers
+au BufLeave * let b:winview = winsaveview()
+au BufEnter * if exists('b:winview') | call winrestview(b:winview) | endif
 
 map <Leader>cd :cd %:p:h<CR>
 map <C-Right> zl
