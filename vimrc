@@ -15,6 +15,7 @@ set expandtab
 set hlsearch
 set hidden
 set showcmd
+set linebreak
 set fileformat=unix
 set incsearch
 set shortmess+=I
