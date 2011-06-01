@@ -19,6 +19,7 @@ set fileformat=unix
 set incsearch
 set shortmess+=I
 set mouse=a
+set backspace=indent,eol,start
 set tags=./tags;
 
 if has("win32") || has("win64")

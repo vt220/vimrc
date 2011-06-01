@@ -13,7 +13,6 @@ if has("win32") || has("win64")
 endif
 
 set vb t_vb=
-set bs=2
 
 if has("win32") || has("win64")
     set guifont=DejaVu_Sans_Mono:h16:cANSI
