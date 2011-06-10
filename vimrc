@@ -19,6 +19,7 @@ set linebreak
 set fileformat=unix
 set incsearch
 set shortmess+=I
+set cryptmethod=blowfish
 set mouse=a
 set backspace=indent,eol,start
 set tags=./tags;
