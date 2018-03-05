@@ -17,7 +17,7 @@ set vb t_vb=
 if has("win32") || has("win64")
     set guifont=DejaVu_Sans_Mono:h16:cANSI
 else
-    set guifont=DejaVu\ Sans\ Mono\ 15
+    set guifont=Menlo\ 14
 endif   
 
 map <silent> <C-F12> :call ProgUtils#OpenFileExplorer(expand('%:p:h'))<CR>
